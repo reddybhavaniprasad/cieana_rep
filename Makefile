@@ -1,10 +1,10 @@
-SRC=/home/bhavani/Videos/ciena
-IDIR =/home/bhavani/Videos/ciena/include
+SRC=/ciena_rep
+IDIR =/ciena_rep/include
 
 CC=gcc
 CFLAGS=-I$(IDIR) -Wall -fprofile-arcs -ftest-coverage
 
-ODIR=/home/bhavani/Videos/ciena/lib
+ODIR=/ciena_rep/lib
 
 _DEPS = *.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
