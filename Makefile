@@ -1,10 +1,10 @@
-SRC=/reddybhavaniprasad/ciena_rep
-IDIR =/reddybhavaniprasad/ciena_rep/include
+SRC=/cieana_rep
+IDIR =/cieana_rep/include
 
 CC=gcc
 CFLAGS=-I$(IDIR) -Wall -fprofile-arcs -ftest-coverage
 
-ODIR=/reddybhavaniprasad/ciena_rep/lib
+ODIR=/cieana_rep/lib
 
 _DEPS = *.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
