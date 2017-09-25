@@ -1,4 +1,4 @@
-#SRC=cieana_rep/
+SRC=./
 IDIR =include/
 
 
@@ -22,5 +22,5 @@ memory: $(OBJ) $(DEPS)
 .PHONY: clean
 
 clean:
-	#rm -f $(SRC)/*.o $(SRC)/*.img $(SRC)/*.gcno $(SRC)/*.gcda $(SRC)/*.info $(SRC)/memory
-	#rm -rf $(SRC)/res
+	rm -f $(SRC)/*.o $(SRC)/*.img $(SRC)/*.gcno $(SRC)/*.gcda $(SRC)/*.info $(SRC)/memory
+	rm -rf $(SRC)/res
