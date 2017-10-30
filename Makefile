@@ -21,6 +21,6 @@ memory: $(OBJ) $(DEPS)
 
 .PHONY: clean
 
-clean:
-	rm -f $(SRC)/*.o $(SRC)/*.img $(SRC)/*.gcno $(SRC)/*.gcda $(SRC)/*.info $(SRC)/memory
-	rm -rf $(SRC)/res
+#clean:
+#	rm -f $(SRC)/*.o $(SRC)/*.img $(SRC)/*.gcno $(SRC)/*.gcda $(SRC)/*.info $(SRC)/memory
+#	rm -rf $(SRC)/res
